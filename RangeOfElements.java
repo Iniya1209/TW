@@ -13,7 +13,7 @@ public class RangeOfElements {
         for(int i=0;i<noOfElements;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.println("The range of the array is "+rangeFinder(arr, noOfElements));
         sc.close();
+        System.out.println("The range of the array is "+rangeFinder(arr, noOfElements));
     }
 }
