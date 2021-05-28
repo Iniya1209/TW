@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class LowerTriangle {
+public class LowerTrianglularMatrix {
     static boolean isLowerTriangle(int square[][],int rowSize){
         for(int row=0;row<rowSize-1;row++){
             for(int col=row+1;col<rowSize;col++){
