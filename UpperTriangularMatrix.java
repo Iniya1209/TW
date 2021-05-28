@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class UpperTriangle {
+public class UpperTrianglularMatrix {
     static boolean isUpperTriangle(int square[][],int rowSize){
         for(int row=1;row<rowSize;row++){
             for(int col=0;col<row;col++){
