@@ -21,7 +21,7 @@ public class Movie {
     }
     @Override
     public String toString(){
-        return "Title: "+title+" Production: "+studio;
+        return "Title: "+title+", Production: "+studio;
     }
     public static void main(String args[]){
         Movie movie1=new Movie("Casino Royale","Eon Productions","PG-13");
